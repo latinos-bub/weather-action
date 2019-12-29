@@ -3,7 +3,7 @@ An action that simply sends a mail to multiple recipients.
 
 # Usage
 
-```bash
+```yml
 - name: Send mail
   uses: dawidd6/action-send-mail@master
   with:
