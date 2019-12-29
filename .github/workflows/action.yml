@@ -21,7 +21,6 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: Github Actions topic is auto send Shanghai Weather Report
-    	  body: Build job of ${{github.repository}} completed successfully!
           body: file://README.md
           to: util.you.com@gmail.com,util.you.com@hotmail.com
           from: latinos-bub GitHub Actions
