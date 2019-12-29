@@ -26,7 +26,7 @@ jobs:
     	  body: Build job of ${{github.repository}} completed successfully!
     	  # Read file contents as body:
           body: file://README.md
-          to: util.you.com@gmail.com,util.you.com@hotmail.com
+          to: util.you.com@gmail.com
           from: latinos-bub GitHub Actions
           # Optional content type:
           content_type: text/html
