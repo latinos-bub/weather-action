@@ -2,8 +2,11 @@ name: 'GitHub Actions Weather Bot'
 
 on:
   push:
-  schedule:
-    - cron: '0 21 * * *'
+    branches: 
+      - master
+      - release/*
+  #schedule:
+   # - cron: '0 21 * * *'
 
 jobs:
   bot:
